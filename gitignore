@@ -1,0 +1,26 @@
+# Credentials — never commit these
+kaggle.json
+*.token
+access_token
+.env
+
+# Trained model weights (large files)
+*.pth
+*.pt
+*.h5
+
+# Dataset folders (too large for GitHub)
+data/
+dataset/
+real-vs-fake/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
